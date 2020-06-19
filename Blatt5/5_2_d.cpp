@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main()
+int main(int argc, char **argv)
 {
     std::vector<int> primzahlen = {2, 3, 5, 7};
     int n;
@@ -28,4 +28,5 @@ int main()
         std::cout << primzahlen[i] << (i != (primzahlen.size() - 1) ? ", " : "");
     }
     std::cout << std::endl;
+    return 0;
 }

@@ -27,4 +27,5 @@ int main(int argc, char **argv)
         
     }
     std::cout << x << " " << y << " " << z << std::endl;
+    return 0;
 }

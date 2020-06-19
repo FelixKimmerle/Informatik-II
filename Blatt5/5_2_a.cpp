@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main()
+int main(int argc, char **argv)
 {
     for (int i = 8; i <= 100; i++)
     {
@@ -10,4 +10,5 @@ int main()
             std::cout << i << std::endl;
         }
     }
+    return 0;
 }

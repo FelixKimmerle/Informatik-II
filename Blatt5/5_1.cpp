@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main()
+int main(int argc, char **argv)
 {
     int n;
     std::cout << "Anzahl: ";
@@ -41,4 +41,5 @@ int main()
     }
 
     std::cout << "Das groesste Element ist an der Stelle " << maxindex << " und hat den Wert " << a[maxindex] << std::endl;
+    return 0;
 }

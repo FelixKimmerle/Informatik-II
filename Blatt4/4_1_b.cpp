@@ -5,6 +5,11 @@ int main(int argc, char **argv)
     std::cout << "Anzahl der Eckpunkte: ";
     int n;
     std::cin >> n;
+    if(n < 3)
+    {
+        std::cout << "Polygone haben mindestens 3 Punkte!" << std::endl;
+        return 1;
+    }
 
     double x1, y1, x2, y2;
     std::cout << "Geben sie einen Punkt ein: ";
@@ -15,7 +20,7 @@ int main(int argc, char **argv)
     double sum = (y1 + y2) * (x1 - x2);
     double xlast = x2;
     double ylast = y2;
-    for (size_t i = 3; i <= n; i++)
+    for (int i = 3; i <= n; i++)
     {
         double x, y;
         std::cout << "Geben sie einen Punkt ein: ";
@@ -26,4 +31,5 @@ int main(int argc, char **argv)
         ylast = y;
         xlast = x;
     }
+    return 0;
 }

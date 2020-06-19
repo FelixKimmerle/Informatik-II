@@ -34,4 +34,5 @@ int main(int argc, char **argv)
               << b.absender.strasse << " " << b.absender.nummer << " zu "
               << b.empfaenger.strasse << " " << b.empfaenger.nummer << " und wiegt "
               << b.gewicht << "g" << std::endl;
+    return 0;
 }

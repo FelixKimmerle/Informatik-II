@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char **argv)
 {
     int a = 3;
     int b = 2;
@@ -18,5 +18,5 @@ int main()
     b += 2;
     c <<= 1;
     cout << "a=" << a << " ,b=" << b << " ,c=" << c << endl;
-
+    return 0;
 }

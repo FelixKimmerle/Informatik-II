@@ -17,4 +17,5 @@ int main(int argc, char **argv)
         }
         std::cout << x << std::endl;
     }
+    return 0;
 }

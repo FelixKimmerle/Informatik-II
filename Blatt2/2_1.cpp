@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char **argv)
 {
     cout << "    (''`-''-/'').___..--''''`-._       " << endl
          << "     `6_ 6  )   `-.  (     ).`-.__.`)  " << endl
@@ -36,4 +36,5 @@ int main()
 
         cout << "Hallo " << vorname << " " << nachname << endl;
     }
+    return 0;
 }
