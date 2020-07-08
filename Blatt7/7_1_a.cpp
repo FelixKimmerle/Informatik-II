@@ -6,7 +6,7 @@ int binomialRekursiv(int n, int k)
     {
         return 1;
     }
-    return (n * binomialRekursiv(n - 1, k - 1)) / k;
+    return n * binomialRekursiv(n - 1, k - 1) / k;
 }
 
 int main(int argc, char **argv)
@@ -15,7 +15,7 @@ int main(int argc, char **argv)
     {
         for (int k = 0; k <= n; k++)
         {
-            std::cout << binomialRekursiv(n,k) << " ";
+            std::cout << binomialRekursiv(n, k) << " ";
         }
         std::cout << std::endl;
     }

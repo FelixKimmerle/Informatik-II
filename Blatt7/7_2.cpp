@@ -39,7 +39,7 @@ int zaehleTiere(zoo z)
     return sum;
 }
 
-void druckeZoo(zoo z)
+void druckeZoo(zoo &z)
 {
     std::cout << "Zoo " << z.name << std::endl;
     std::cout << z.arten.size() << " Tierarten" << std::endl;
